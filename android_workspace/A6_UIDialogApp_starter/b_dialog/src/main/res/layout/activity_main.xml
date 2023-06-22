@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_yes_no_message_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YES NO MESSAGE DIALOG" />
+
+        <Button
+            android:id="@+id/btn_yes_no_long_message_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YES NO LONG MESSAGE DIALOG" />
+
+        <Button
+            android:id="@+id/btn_list_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LIST DIALOG" />
+
+        <Button
+            android:id="@+id/btn_progress_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROGRESS DIALOG" />
+
+        <Button
+            android:id="@+id/btn_single_choice_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SINGLE CHOICE DIALOG" />
+
+        <Button
+            android:id="@+id/btn_multiple_choice_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MULTIPLE CHOICE DIALOG" />
+
+        <Button
+            android:id="@+id/btn_text_entry_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TEXT ENTRY DIALOG" />
+    </LinearLayout>
+
+</ScrollView>

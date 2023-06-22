@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">자기 관리 앱</string>
+    <string name="menu_insert">Add Item</string>
+    <string name="menu_delete">Del Item</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="weather_clear">맑음</string>
+    <string name="weather_clouds">흐림</string>
+    <string name="weather_rain">비</string>
+    <string name="weather_drizzle">이슬비</string>
+    <string name="weather_thunderstorm">천둥번개</string>
+    <string name="weather_snow">눈</string>
+    <string name="weather_mist">안개</string>
+    <string name="weather_smoke">연기</string>
+    <string name="weather_haze">안개</string>
+    <string name="weather_dust">먼지</string>
+    <string name="weather_fog">안개</string>
+    <string name="weather_sand">모래</string>
+    <string name="weather_ash">화산재</string>
+    <string name="weather_squall">돌풍</string>
+    <string name="weather_tornado">토네이도</string>
+</resources>

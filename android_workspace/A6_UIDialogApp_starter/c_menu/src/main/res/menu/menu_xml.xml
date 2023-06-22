@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/item_first"
+        android:title="홈"
+        android:icon="@drawable/example_item_icon"
+        app:showAsAction="ifRoom"/>
+
+    <group android:id="@+id/group_first">
+        <item android:id="@+id/item_second"
+            android:title="음악"
+            android:icon="@drawable/example_item2_icon"
+            app:showAsAction="ifRoom"/>
+        <item android:id="@+id/item_third"
+            android:title="설정"/> <!-- show as action이 없으면 삼점 안으로 들어감 -->
+    </group>
+
+    <item android:id="@+id/item_submenu"
+        android:title="서브메뉴">
+        <menu><!--메뉴안에 메뉴여서 삼점 안에 또 다른 서브메뉴가 됨 -->
+            <item android:id="@+id/item_submenu_first"
+                android:title="개발자 정보"/>
+        </menu>
+    </item>
+</menu>

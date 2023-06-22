@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
+    <application
+    android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/dr"
+        android:label="Daily Routine"
+        android:roundIcon="@mipmap/dr"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidProject2"
+        tools:targetApi="31">
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+        <activity
+            android:name=".WeatherMainActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".NoteEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NoteListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewsMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MouseMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/*" /></intent-filter>
+        </activity>
+    </application>
+
+</manifest>

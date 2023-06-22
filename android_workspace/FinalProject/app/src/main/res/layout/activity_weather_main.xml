@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WeatherMainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style = "?android:attr/borderlessButtonStyle"
+            android:id="@+id/seoulBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Seoul"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white">
+        </TextView>
+
+        <TextView
+            style = "?android:attr/borderlessButtonStyle"
+            android:id="@+id/dajeonBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Daejeon"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:textAllCaps="false">
+        </TextView>
+
+        <TextView
+            android:id="@+id/busanBtn"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Busan"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"></TextView>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="오늘 서울의 날씨"
+        android:textAlignment="center"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/condition"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/condition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="날씨"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        tools:layout_editor_absoluteX="-7dp"
+        android:textStyle="bold"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="40도"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toTopOf="@+id/returnBtn"
+        app:layout_constraintTop_toBottomOf="@+id/condition"
+        tools:layout_editor_absoluteX="0dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/returnBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Return"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

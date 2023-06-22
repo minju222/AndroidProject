@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NotePad2</string>
+    <string name="menu_insert">Add Item</string>
+    <string name="menu_delete">Del Item</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit_note">Edit Note</string>
+</resources>

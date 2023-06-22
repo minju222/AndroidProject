@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- gravity: 자기 component안에서의 배치 위치 / layout gravity는 밖과 나의 위치 관계 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="10"
+        android:text="Hello World!"
+        android:textSize="24sp"
+        android:layout_gravity=""
+        android:gravity="center"
+        android:textColor="#49E4F8"
+        android:background="@color/cardview_dark_background" />
+
+    <!--textAllCaps ture면 text 전부 대문자-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Press this button" />
+
+    <!--input type 지정 가능-->
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">memo</string>
+    <string name="title">오늘 할일</string>
+    <string name="content">상세내용</string>
+    <string name="save">Save</string>
+    <string name="add">ADD</string>
+    <string name="date_yyyy_mm_dd">날짜 (yyyy-MM-dd)</string>
+    <string name="back">go back</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckList>
+	<Check  code="1001"
+			date="2018.10.01">
+		<Clean>H</Clean>
+		<Ready>H</Ready>
+		<Response>M</Response>
+		<Request></Request>
+	</Check>
+	<Check  code="1001"
+			date="2018.10.02">
+		<Clean>H</Clean>
+		<Ready>H</Ready>
+		<Response>M</Response>
+		<Request>air clean!!</Request>
+	</Check>
+	<Check  code="1001"
+			date="2018.10.03">
+		<Clean>H</Clean>
+		<Ready>H</Ready>
+		<Response>M</Response>
+		<Request>air clean2!!</Request>
+	</Check>
+	<Check  code="1002"
+			date="2018.10.01">
+		<Clean>H</Clean>
+		<Ready>H</Ready>
+		<Response>M</Response>
+		<Request>aaaaa</Request>
+	</Check>
+	<Check  code="1002"
+			date="2018.10.02">
+		<Clean>H</Clean>
+		<Ready>H</Ready>
+		<Response>M</Response>
+		<Request>cccccc</Request>
+	</Check>
+	<Check  code="1003"
+			date="2017.10.03">
+		<Clean>H</Clean>
+		<Ready>H</Ready>
+		<Response>M</Response>
+		<Request>bbbbb</Request>
+	</Check>
+</CheckList>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.jaen.bletest.MainActivity" >
+
+    <item
+        android:id="@+id/action_scan"
+        android:title="Scan"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/action_stop"
+        android:title="Stop"
+        app:showAsAction="always">
+    </item>
+
+</menu>
